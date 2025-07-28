@@ -28,9 +28,9 @@ function decryptCode(code) {
 
     for (const char of code) {
         if (char === char.toUpperCase()) {
-            result += char.toLowerCase();
+            result = result + char.toLowerCase();
         } else {
-            result += char.toUpperCase();
+            result = result + char.toUpperCase();
         }
     }
     return result;
