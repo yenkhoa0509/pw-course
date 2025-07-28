@@ -8,15 +8,16 @@ numbers.forEach(num => {
 let sum = 0;
 let max = numbers[0];
 let min = numbers[0];
-numbers.forEach(num => {
-    sum += num;
-    if (num > max) max = num;
-    if (num < min) min = num;
-});
 
-console.log("Tổng =", sum);
-console.log("Max =", max);
-console.log("Min =", min);
+numbers.forEach(num => {
+    sum = sum + num;
+    if (num > max) {
+        max = num;
+    }
+    if (num < min) {
+        min = num;
+    }
+});
 
 // 1.3 Tạo mảng mới từ numbers, mỗi phần tử nhân đôi
 const doubled = [];
