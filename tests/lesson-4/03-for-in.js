@@ -13,7 +13,7 @@ for (const key in student) {
 let total = 0;
 for (const key in student) {
     if (typeof student[key] === "number") {
-        total += student[key];
+        total = total + student[key];
     }
 }
 console.log("Tổng giá trị các số =", total);
