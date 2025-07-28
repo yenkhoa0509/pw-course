@@ -33,10 +33,8 @@ function decryptCode(code) {
             result += char.toUpperCase();
         }
     }
-
     return result;
 }
-
 let secret = decryptCode("K16 Challenge");
 console.log("Mật mã đã giải mã:", secret);
 
