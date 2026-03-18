@@ -1,0 +1,9 @@
+git stash:
+- Lưu tạm thời tất cả thay đổi chưa commit của Git
+- Trả working directory và staging area về trạng thái của commit gần nhất
+
+git stash pop:
+- Lấy lại thay đổi đã lưu trong stash gần nhất vào working directory
+- Xóa mục stash đó khỏi danh sách stash
+
+*chỉnh sửa
